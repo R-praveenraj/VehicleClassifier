@@ -14,8 +14,10 @@ Write a java code snippet to demonstrate the usage of these classes.
  */
 
 abstract class Vehicle{
-    abstract void start();
-    abstract void stop();
+    abstract public void start();
+
+    ;
+    abstract public void stop();
 }
 class Car extends Vehicle{
     public void start(){
